@@ -15,9 +15,11 @@
 }
 
 .home {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
+    position: relative;
+    overflow-y: hidden;
 }
 
 .home h1 {
@@ -34,6 +36,11 @@
 
 .home .btn:hover {
     background: #7d97f4;
+}
+
+.waves{
+    position: absolute;
+    bottom: -60px;
 }
 
 .blog .card .box-title{
